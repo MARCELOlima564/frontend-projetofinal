@@ -1,6 +1,7 @@
 "use client"
 
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 import { useState } from "react";
 import Input from "./components/input/Input";
@@ -62,11 +63,7 @@ export default function Home() {
 <Header></Header>
 
 <Link href={'/teste'}>Levar para página teste</Link>
-
-
-
 <footer></footer>
-
 </>    
   )
 main
