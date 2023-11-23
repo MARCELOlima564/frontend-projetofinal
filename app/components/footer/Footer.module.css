@@ -1,50 +1,36 @@
-.footer {
-    background-color: rgba(190, 137, 137, 0.755);
-    height: 20vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100%;
-}
-.links {
-    position: relative;
-    color: #fff;
-    text-decoration: none;
-    margin: 50px;
-    font-size: 20px;
-    flex-direction: column;
-
-}
-
-.links:before {
-    content: "";
-    position: absolute;
+.main{
+    background-color: #52290e;
+    height: 35vh;
     width: 100%;
-    height: 3px;
     bottom: 0;
-    left: 0;
-    background-color: #fff;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
+    position: fixed;
 }
-
-
-.cadastro{
-    background-color:rgb(209, 158, 96);
-    width: 10vw;
-    height: 6vh;
-    border-radius: 15px;
-    display: flex;
+.icons{
     align-items: center;
     justify-content: center;
+    display: flex;
 }
-.linkcadastro{
-    position: relative;
-    color: #fff;
+.icons1{
+    margin: 40px;
+}
+.camihos{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+.links{
     text-decoration: none;
-    font-size: 20px;
+    margin: 15px;
+    color: white;
+}
+.todosdireitosreservados{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(223, 169, 102);
+    margin-top: 65px;
+}
+.titulocopyright{
+    color: white;
 }
