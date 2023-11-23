@@ -9,8 +9,11 @@ function Header(){
             <div>
                 <Link className={styles.links} href={'/'}>Home</Link>
                 <Link className={styles.links} href={'/'}>Sobre nós</Link>
-                <Link className={styles.links} href={'/'}>Cadastro</Link>
+                
                 <Link className={styles.links} href={'/'}>Contato</Link>
+            </div>
+            <div className={styles.cadastro}>
+            <Link className={styles.linkcadastro} href={'/'}>Cadastro</Link>
             </div>
         </div>
     )

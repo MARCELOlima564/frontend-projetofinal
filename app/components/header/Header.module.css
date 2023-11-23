@@ -11,8 +11,9 @@
     position: relative;
     color: #fff;
     text-decoration: none;
-    margin: 10px;
-    font-size: 25px;
+    margin: 50px;
+    font-size: 20px;
+
 
 }
 
@@ -35,4 +36,19 @@
     visibility: visible;
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
+}
+.cadastro{
+    background-color:rgb(209, 158, 96);
+    width: 10vw;
+    height: 6vh;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linkcadastro{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
 }
