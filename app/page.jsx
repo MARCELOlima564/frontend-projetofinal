@@ -27,7 +27,7 @@ export default function Home() {
   }
 
   return (
- contato2
+
     <div className={estilo.body}>
 
       <Header></Header>
@@ -65,6 +65,5 @@ export default function Home() {
 <Link href={'/teste'}>Levar para página teste</Link>
 <footer></footer>
 </>    
-  )
-main
+
 }
