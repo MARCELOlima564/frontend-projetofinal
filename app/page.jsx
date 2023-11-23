@@ -1,6 +1,6 @@
 import Header from "./components/header/Header";
 import Link from "next/link";
-import Hometest from "./teste/page";
+
 
 
 export default function Home() {
@@ -9,9 +9,6 @@ export default function Home() {
 <Header></Header>
 
 <Link href={'/teste'}>Levar para página teste</Link>
-
-
-
 <footer></footer>
 
 </>    
