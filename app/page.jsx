@@ -7,8 +7,12 @@ export default function Home() {
   return (
 <>
 <Header></Header>
+
 <Link href={'/teste'}>Levar para página teste</Link>
 
+
+
+<footer></footer>
 
 </>    
   )
