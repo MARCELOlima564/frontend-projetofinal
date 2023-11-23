@@ -1,9 +1,12 @@
 "use client"
 
 import Header from "./components/header/Header";
+
 import { useState } from "react";
 import Input from "./components/input/Input";
 import estilo from "./components/input/input.module.css";
+import Link from "next/link";
+import Hometest from "./teste/page";
 
 
 export default function Home() {
@@ -23,6 +26,7 @@ export default function Home() {
   }
 
   return (
+ contato2
     <div className={estilo.body}>
 
       <Header></Header>
@@ -53,4 +57,17 @@ export default function Home() {
 
     </div>
   );
+
+<>
+<Header></Header>
+
+<Link href={'/teste'}>Levar para página teste</Link>
+
+
+
+<footer></footer>
+
+</>    
+  )
+main
 }
