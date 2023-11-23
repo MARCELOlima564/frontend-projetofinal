@@ -13,7 +13,7 @@ function Footer(){
                 <div className={styles.icons}>
                     <FaGithub className={styles.icons1} fontSize={30} color={"white"}/>
                     <SiLinktree className={styles.icons1} fontSize={30} color={"white"}/>
-                    <FaInstagram className={styles.icons1} fontSize={30} color={"white"}></FaInstagram>
+                    <FaInstagram className={styles.icons1} fontSize={30} color={"white"}/>
                     
                 </div>
                 <div className={styles.camihos}>
