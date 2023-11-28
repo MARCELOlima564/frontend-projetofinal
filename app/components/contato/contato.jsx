@@ -1,11 +1,15 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import styles from './Header.module.css';
+import styles from './Contato.module.css';
+import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
-function Contato() {
+
+ function Contato() {
     return (
         <div className={styles.Contato}>
+        <Header></Header>
 
             <div className={styles.img}>
                 <Image src={"/logoArteAlémdaTela.jpeg"} width={150} height={150} className={styles.imagem}/>
@@ -25,8 +29,10 @@ function Contato() {
 
                 <button className={styles.enviarMsg}>Enviar</button>
             </div>
-
+<Footer></Footer>
         </div>
+       
     )
+
 }
 export default Contato;
